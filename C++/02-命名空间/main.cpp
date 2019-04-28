@@ -57,7 +57,6 @@ int main(int argc, const char * argv[]) {
     
     ::show(); //加上::相当于调用全局的show()函数,否则编译器会不知道调用哪个show
     
-    
     using xx::psz;//名字空间声明
     std::cout << psz << std::endl;
     return 0;

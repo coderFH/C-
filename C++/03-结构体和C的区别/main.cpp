@@ -19,6 +19,7 @@ struct Student {
 };
 
 int main(int argc, const char * argv[]) {
+    //C++中使用结构体不用再使用struct关键字了
     Student s = {"张飞",27};
     s.eat("KFC");
     
