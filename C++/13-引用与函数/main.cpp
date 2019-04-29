@@ -27,12 +27,32 @@ void bar(const S& s) {
 //    s.arr[0] = 100;//不能修改结构体的值,因为有const修饰
 }
 
-
-//引用型的返回值
+#pragma mark ---引用型的返回值
 int& foo1(void) {
-    int n = 100;
+    //任何时候都不要返回局部变量的引用（包括函数参数）
+    int n = 100;//n是局部变量,函数销毁后,不保证这个地址还有效
+    return n; //所以会报警告
+}
+
+int& foo2(void) {
+    //可以返回 全局变量 静态变量 动态分配变量 成员变量 实参引用
+    static int n = 200;
     return n;
 }
+
+int g = 100;
+int& foo3(void) {
+    return g;
+}
+
+int& foo4(void) {
+    int* p = new int(100);
+    return *p;
+}
+
+//int& foo5(void) {
+//
+//}
 
 int main(int argc, const char * argv[]) {
     int arr[] = {1,2,3,4,5,6};
@@ -41,8 +61,17 @@ int main(int argc, const char * argv[]) {
     S s;
     bar(s);
     
-//    int *psz = foo1();
-//    cout << psz << endl;
+    int n1 = foo1();
+    cout << n1 << endl;
+    
+    int n2 = foo2();
+    cout << n2 << endl;
+    
+    int n3 = foo3();
+    cout << n3 << endl;
+    
+    int n4 = foo4();
+    cout << n4 << endl;
     
     return 0;
 }

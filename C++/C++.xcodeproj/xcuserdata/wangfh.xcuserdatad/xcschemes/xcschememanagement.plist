@@ -74,6 +74,11 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>13-引用与函数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>
