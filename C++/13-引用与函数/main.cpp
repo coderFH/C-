@@ -51,9 +51,16 @@ int& foo4(void) {
     return *p;
 }
 
-//int& foo5(void) {
-//
-//}
+int& foo5(int &r) {
+    return r;
+}
+
+struct T {
+    int n;
+    int& foo(void) {
+        return n;
+    }
+};
 
 int main(int argc, const char * argv[]) {
     int arr[] = {1,2,3,4,5,6};
@@ -73,6 +80,14 @@ int main(int argc, const char * argv[]) {
     
     int n4 = foo4();
     cout << n4 << endl;
+    
+    int m = 100;
+    int& n5 = foo5(m);
+    cout << n5 <<endl;
+    
+    T t = {600};
+    int& n = t.foo();
+    cout << n << endl;
     
     return 0;
 }
