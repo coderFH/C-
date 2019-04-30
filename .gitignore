@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+*.xcuserstate
 
 # Precompiled Headers
 *.gch

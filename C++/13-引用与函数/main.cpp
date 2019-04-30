@@ -40,13 +40,14 @@ int& foo2(void) {
     return n;
 }
 
-int g = 100;
+int g = 300;
 int& foo3(void) {
     return g;
 }
 
 int& foo4(void) {
-    int* p = new int(100);
+    int* p = new int(100); //new在堆区创建,不会释放
+    *p = 400;
     return *p;
 }
 
