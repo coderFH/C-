@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2297A3227F024600F635E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F2297A2227F024600F635E6 /* main.cpp */; };
 		7F890A2F22757A5B004F9DBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F890A2E22757A5B004F9DBE /* main.cpp */; };
 		7F890A3A22758271004F9DBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F890A3922758271004F9DBE /* main.cpp */; };
 		7F890A452275895D004F9DBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F890A442275895D004F9DBE /* main.cpp */; };
@@ -33,6 +34,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7F22979E227F024600F635E6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		7F890A2A22757A5B004F9DBE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +253,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F2297A0227F024600F635E6 /* 24-析构函数演示 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-析构函数演示"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2297A2227F024600F635E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F890A2C22757A5B004F9DBE /* 04-联合的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-联合的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F890A2E22757A5B004F9DBE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F890A3722758271004F9DBE /* 05-枚举 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-枚举"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -292,6 +304,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F22979D227F024600F635E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F890A2922757A5B004F9DBE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,6 +475,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F2297A1227F024600F635E6 /* 24-析构函数演示 */ = {
+			isa = PBXGroup;
+			children = (
+				7F2297A2227F024600F635E6 /* main.cpp */,
+			);
+			path = "24-析构函数演示";
+			sourceTree = "<group>";
+		};
 		7F890A2D22757A5B004F9DBE /* 04-联合的使用 */ = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +669,7 @@
 				8D24E7D12279DBCF002556CB /* 21-this指针 */,
 				8D24E7DC2279E8A3002556CB /* 22-this指针研究 */,
 				8D2B306E227C6C1C0061524F /* 23-const对象和const成员函数 */,
+				7F2297A1227F024600F635E6 /* 24-析构函数演示 */,
 				8D544A1E22749FA3005FA833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -672,6 +700,7 @@
 				8D24E7D02279DBCF002556CB /* 21-this指针 */,
 				8D24E7DB2279E8A2002556CB /* 22-this指针研究 */,
 				8D2B306D227C6C1C0061524F /* 23-const对象和const成员函数 */,
+				7F2297A0227F024600F635E6 /* 24-析构函数演示 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -703,6 +732,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7F22979F227F024600F635E6 /* 24-析构函数演示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2297A4227F024600F635E6 /* Build configuration list for PBXNativeTarget "24-析构函数演示" */;
+			buildPhases = (
+				7F22979C227F024600F635E6 /* Sources */,
+				7F22979D227F024600F635E6 /* Frameworks */,
+				7F22979E227F024600F635E6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "24-析构函数演示";
+			productName = "24-析构函数演示";
+			productReference = 7F2297A0227F024600F635E6 /* 24-析构函数演示 */;
+			productType = "com.apple.product-type.tool";
+		};
 		7F890A2B22757A5B004F9DBE /* 04-联合的使用 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F890A3022757A5B004F9DBE /* Build configuration list for PBXNativeTarget "04-联合的使用" */;
@@ -1104,6 +1150,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Ne;
 				TargetAttributes = {
+					7F22979F227F024600F635E6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					7F890A2B22757A5B004F9DBE = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1211,11 +1260,20 @@
 				8D24E7CF2279DBCF002556CB /* 21-this指针 */,
 				8D24E7DA2279E8A2002556CB /* 22-this指针研究 */,
 				8D2B306C227C6C1C0061524F /* 23-const对象和const成员函数 */,
+				7F22979F227F024600F635E6 /* 24-析构函数演示 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F22979C227F024600F635E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2297A3227F024600F635E6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F890A2822757A5B004F9DBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1403,6 +1461,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7F2297A5227F024600F635E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F2297A6227F024600F635E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		7F890A3122757A5B004F9DBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1885,6 +1959,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F2297A4227F024600F635E6 /* Build configuration list for PBXNativeTarget "24-析构函数演示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2297A5227F024600F635E6 /* Debug */,
+				7F2297A6227F024600F635E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7F890A3022757A5B004F9DBE /* Build configuration list for PBXNativeTarget "04-联合的使用" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
