@@ -22,6 +22,7 @@
 		7F89FEA822802CAA00599799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F89FEA722802CAA00599799 /* main.cpp */; };
 		7F89FEB32280354D00599799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F89FEB22280354D00599799 /* main.cpp */; };
 		7F89FEBE22803CED00599799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F89FEBD22803CED00599799 /* main.cpp */; };
+		7F89FEC92280543A00599799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F89FEC82280543A00599799 /* main.cpp */; };
 		8D24E786227981C4002556CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D24E785227981C4002556CB /* main.cpp */; };
 		8D24E79122798610002556CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D24E79022798610002556CB /* main.cpp */; };
 		8D24E79C227991A2002556CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D24E79B227991A2002556CB /* main.cpp */; };
@@ -166,6 +167,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		7F89FEB922803CED00599799 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F89FEC42280543A00599799 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -333,6 +343,8 @@
 		7F89FEB22280354D00599799 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F89FEBB22803CED00599799 /* 29-拷贝赋值运算符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "29-拷贝赋值运算符"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F89FEBD22803CED00599799 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F89FEC62280543A00599799 /* 30-成员指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30-成员指针"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F89FEC82280543A00599799 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8D24E783227981C4002556CB /* 14-访问控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-访问控制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D24E785227981C4002556CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8D24E78E22798610002556CB /* 15-构造函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-构造函数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -463,6 +475,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F89FEB822803CED00599799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F89FEC32280543A00599799 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -690,6 +709,14 @@
 			path = "29-拷贝赋值运算符";
 			sourceTree = "<group>";
 		};
+		7F89FEC72280543A00599799 /* 30-成员指针 */ = {
+			isa = PBXGroup;
+			children = (
+				7F89FEC82280543A00599799 /* main.cpp */,
+			);
+			path = "30-成员指针";
+			sourceTree = "<group>";
+		};
 		8D24E784227981C4002556CB /* 14-访问控制 */ = {
 			isa = PBXGroup;
 			children = (
@@ -810,6 +837,7 @@
 				7F89FEA622802CAA00599799 /* 27-为什么需要自定义的拷贝构造函数 */,
 				7F89FEB12280354D00599799 /* 28-拷贝构造函数运用的时机 */,
 				7F89FEBC22803CED00599799 /* 29-拷贝赋值运算符 */,
+				7F89FEC72280543A00599799 /* 30-成员指针 */,
 				8D544A1E22749FA3005FA833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -846,6 +874,7 @@
 				7F89FEA522802CAA00599799 /* 27-为什么需要自定义的拷贝构造函数 */,
 				7F89FEB02280354D00599799 /* 28-拷贝构造函数运用的时机 */,
 				7F89FEBB22803CED00599799 /* 29-拷贝赋值运算符 */,
+				7F89FEC62280543A00599799 /* 30-成员指针 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1130,6 +1159,23 @@
 			name = "29-拷贝赋值运算符";
 			productName = "29-拷贝赋值运算符";
 			productReference = 7F89FEBB22803CED00599799 /* 29-拷贝赋值运算符 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F89FEC52280543A00599799 /* 30-成员指针 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F89FECA2280543A00599799 /* Build configuration list for PBXNativeTarget "30-成员指针" */;
+			buildPhases = (
+				7F89FEC22280543A00599799 /* Sources */,
+				7F89FEC32280543A00599799 /* Frameworks */,
+				7F89FEC42280543A00599799 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "30-成员指针";
+			productName = "30-成员指针";
+			productReference = 7F89FEC62280543A00599799 /* 30-成员指针 */;
 			productType = "com.apple.product-type.tool";
 		};
 		8D24E782227981C4002556CB /* 14-访问控制 */ = {
@@ -1425,6 +1471,9 @@
 					7F89FEBA22803CED00599799 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7F89FEC52280543A00599799 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8D24E782227981C4002556CB = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1511,6 +1560,7 @@
 				7F89FEA422802CAA00599799 /* 27-为什么需要自定义的拷贝构造函数 */,
 				7F89FEAF2280354D00599799 /* 28-拷贝构造函数运用的时机 */,
 				7F89FEBA22803CED00599799 /* 29-拷贝赋值运算符 */,
+				7F89FEC52280543A00599799 /* 30-成员指针 */,
 			);
 		};
 /* End PBXProject section */
@@ -1633,6 +1683,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F89FEBE22803CED00599799 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F89FEC22280543A00599799 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F89FEC92280543A00599799 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1984,6 +2042,22 @@
 			name = Debug;
 		};
 		7F89FEC122803CED00599799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F89FECB2280543A00599799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F89FECC2280543A00599799 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2460,6 +2534,15 @@
 			buildConfigurations = (
 				7F89FEC022803CED00599799 /* Debug */,
 				7F89FEC122803CED00599799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F89FECA2280543A00599799 /* Build configuration list for PBXNativeTarget "30-成员指针" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F89FECB2280543A00599799 /* Debug */,
+				7F89FECC2280543A00599799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
