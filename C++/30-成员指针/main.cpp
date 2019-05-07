@@ -15,6 +15,9 @@ public:
     void SetName(const string& strName) {
         m_strName = strName;
     }
+    static void foo(void) {
+        cout << "静态成员函数" << endl;
+    }
 };
 
 int main(int argc, const char * argv[]) {
@@ -37,6 +40,10 @@ int main(int argc, const char * argv[]) {
     cout << s1.m_strName << endl;
     (ps->*pfSetName)("赵云2");
     cout << ps->m_strName << endl;
+    
+    //静态成员函数
+    void(*phFoo)(void) = &Student::foo;
+    phFoo();
     
     return 0;
 }
