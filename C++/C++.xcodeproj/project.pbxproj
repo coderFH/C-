@@ -25,6 +25,7 @@
 		7F89FEB32280354D00599799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F89FEB22280354D00599799 /* main.cpp */; };
 		7F89FEBE22803CED00599799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F89FEBD22803CED00599799 /* main.cpp */; };
 		7F89FEC92280543A00599799 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F89FEC82280543A00599799 /* main.cpp */; };
+		7FEA0025228C35C800FC3630 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA0024228C35C800FC3630 /* main.cpp */; };
 		8D24E786227981C4002556CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D24E785227981C4002556CB /* main.cpp */; };
 		8D24E79122798610002556CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D24E79022798610002556CB /* main.cpp */; };
 		8D24E79C227991A2002556CB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D24E79B227991A2002556CB /* main.cpp */; };
@@ -204,6 +205,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		7FEA0020228C35C800FC3630 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8D24E781227981C4002556CB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,6 +379,8 @@
 		7F89FEBD22803CED00599799 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F89FEC62280543A00599799 /* 30-成员指针 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "30-成员指针"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F89FEC82280543A00599799 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7FEA0022228C35C800FC3630 /* 33-双目运算符重载 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "33-双目运算符重载"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FEA0024228C35C800FC3630 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8D24E783227981C4002556CB /* 14-访问控制 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-访问控制"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D24E785227981C4002556CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8D24E78E22798610002556CB /* 15-构造函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-构造函数"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -520,6 +532,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F89FEC32280543A00599799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEA001F228C35C800FC3630 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -771,6 +790,14 @@
 			path = "30-成员指针";
 			sourceTree = "<group>";
 		};
+		7FEA0023228C35C800FC3630 /* 33-双目运算符重载 */ = {
+			isa = PBXGroup;
+			children = (
+				7FEA0024228C35C800FC3630 /* main.cpp */,
+			);
+			path = "33-双目运算符重载";
+			sourceTree = "<group>";
+		};
 		8D24E784227981C4002556CB /* 14-访问控制 */ = {
 			isa = PBXGroup;
 			children = (
@@ -894,6 +921,7 @@
 				7F89FEC72280543A00599799 /* 30-成员指针 */,
 				7F09B74A2281966800D53108 /* 31-输入输出运算符重载 */,
 				7F09B7572281A8A800D53108 /* 32-练习 */,
+				7FEA0023228C35C800FC3630 /* 33-双目运算符重载 */,
 				8D544A1E22749FA3005FA833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -933,6 +961,7 @@
 				7F89FEC62280543A00599799 /* 30-成员指针 */,
 				7F09B7492281966800D53108 /* 31-输入输出运算符重载 */,
 				7F09B7562281A8A800D53108 /* 32-练习 */,
+				7FEA0022228C35C800FC3630 /* 33-双目运算符重载 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1270,6 +1299,23 @@
 			productReference = 7F89FEC62280543A00599799 /* 30-成员指针 */;
 			productType = "com.apple.product-type.tool";
 		};
+		7FEA0021228C35C800FC3630 /* 33-双目运算符重载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEA0028228C35C800FC3630 /* Build configuration list for PBXNativeTarget "33-双目运算符重载" */;
+			buildPhases = (
+				7FEA001E228C35C800FC3630 /* Sources */,
+				7FEA001F228C35C800FC3630 /* Frameworks */,
+				7FEA0020228C35C800FC3630 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "33-双目运算符重载";
+			productName = "33-双目运算符重载";
+			productReference = 7FEA0022228C35C800FC3630 /* 33-双目运算符重载 */;
+			productType = "com.apple.product-type.tool";
+		};
 		8D24E782227981C4002556CB /* 14-访问控制 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D24E789227981C4002556CB /* Build configuration list for PBXNativeTarget "14-访问控制" */;
@@ -1572,6 +1618,9 @@
 					7F89FEC52280543A00599799 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7FEA0021228C35C800FC3630 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					8D24E782227981C4002556CB = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1661,6 +1710,7 @@
 				7F89FEC52280543A00599799 /* 30-成员指针 */,
 				7F09B7482281966800D53108 /* 31-输入输出运算符重载 */,
 				7F09B7552281A8A800D53108 /* 32-练习 */,
+				7FEA0021228C35C800FC3630 /* 33-双目运算符重载 */,
 			);
 		};
 /* End PBXProject section */
@@ -1807,6 +1857,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F89FEC92280543A00599799 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEA001E228C35C800FC3630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEA0025228C35C800FC3630 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2206,6 +2264,22 @@
 			name = Debug;
 		};
 		7F89FECC2280543A00599799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FEA0026228C35C800FC3630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FEA0027228C35C800FC3630 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2709,6 +2783,15 @@
 			buildConfigurations = (
 				7F89FECB2280543A00599799 /* Debug */,
 				7F89FECC2280543A00599799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FEA0028228C35C800FC3630 /* Build configuration list for PBXNativeTarget "33-双目运算符重载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FEA0026228C35C800FC3630 /* Debug */,
+				7FEA0027228C35C800FC3630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

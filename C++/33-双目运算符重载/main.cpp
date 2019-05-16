@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  31-输入输出运算符重载
+//  33-双目运算符重载
 //
-//  Created by wangfh on 2019/5/7.
+//  Created by wangfh on 2019/5/15.
 //  Copyright © 2019 Ne. All rights reserved.
 //
 
@@ -18,6 +18,15 @@ private:
 public:
     Complex() {}
     Complex(int r,int i) : m_r(r),m_i(i) {}
+    Complex operator+ (const Complex& c) const {
+        return Complex(m_r + c.m_r,m_i + c.m_i);
+    }
+    Complex& operator+= (const Complex& c) {
+//        return *this = *this + c; //等价于下面的写法
+        m_r += c.m_r;
+        m_i += c.m_r;
+        return *this;
+    }
 };
 
 ostream& operator<<(ostream& os,const Complex& c) {
@@ -35,4 +44,13 @@ int main(int argc, const char * argv[]) {
     Complex c2;
     cin >> c2;
     cout << c2 << endl;
+    
+    //双目运算符重载
+    Complex c3 = c1 + c2;//  编译器其实会理解为c3 = c1.operator+(c2);
+    cout << c1 << "+" <<c2 << "=" << c3 <<endl;
+    
+    //仿写类似于 int a = 10, b = 20; (a+=b)+=b;
+    Complex c4 = c1;
+    (c4 += c2)+=c2;
+    cout << "+=" << c4 <<  endl;
 }
