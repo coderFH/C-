@@ -18,7 +18,7 @@ private:
 public:
     Complex() {}
     Complex(int r,int i) : m_r(r),m_i(i) {}
-    Complex operator+ (const Complex& c) const {
+    Complex operator+ (const Complex& c) const {//const表示调用对象不可变,这里就是c1
         return Complex(m_r + c.m_r,m_i + c.m_i);
     }
     Complex& operator+= (const Complex& c) {

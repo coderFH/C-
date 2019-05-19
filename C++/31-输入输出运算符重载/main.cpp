@@ -31,6 +31,8 @@ istream& operator>>(istream& is,Complex& c) {
 int main(int argc, const char * argv[]) {
     Complex c1(3,4);
     cout << c1 << endl;//不运算符重载的话,会报错 编译器本质回去找这个函数 operator<<(cout,c1); 所以我们实现它就行
+//    operator<<(cout,c1).operator<<(endl); 33行对于编译器就是解释成这一行,
+//    operator<<(cout,c1)的返回值是ostream类型的,ostream再去调用内部定义好的operator<<(endl)进行换行,
     
     Complex c2;
     cin >> c2;
