@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7F09B7512281968500D53108 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F09B7502281968500D53108 /* main.cpp */; };
 		7F09B7592281A8A800D53108 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F09B7582281A8A800D53108 /* main.cpp */; };
+		7F14AF4A22927BEC001C64A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14AF4922927BEC001C64A3 /* main.cpp */; };
+		7F14AF5822927FC4001C64A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14AF5622927FC4001C64A3 /* main.cpp */; };
 		7F2297A3227F024600F635E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F2297A2227F024600F635E6 /* main.cpp */; };
 		7F890A2F22757A5B004F9DBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F890A2E22757A5B004F9DBE /* main.cpp */; };
 		7F890A3A22758271004F9DBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F890A3922758271004F9DBE /* main.cpp */; };
@@ -56,6 +58,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		7F09B7542281A8A800D53108 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F14AF4022927BCF001C64A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F14AF4D22927FAD001C64A3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -377,6 +397,10 @@
 		7F09B7502281968500D53108 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F09B7562281A8A800D53108 /* 32-练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "32-练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F09B7582281A8A800D53108 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F14AF4222927BCF001C64A3 /* 37-运算符重载的说明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "37-运算符重载的说明"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14AF4922927BEC001C64A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F14AF4F22927FAD001C64A3 /* 38-运算符重载综合练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "38-运算符重载综合练习"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14AF5622927FC4001C64A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F2297A0227F024600F635E6 /* 24-析构函数演示 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24-析构函数演示"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2297A2227F024600F635E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F890A2C22757A5B004F9DBE /* 04-联合的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-联合的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -456,6 +480,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F09B7532281A8A800D53108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14AF3F22927BCF001C64A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14AF4C22927FAD001C64A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -717,6 +755,22 @@
 				7F09B7582281A8A800D53108 /* main.cpp */,
 			);
 			path = "32-练习";
+			sourceTree = "<group>";
+		};
+		7F14AF4322927BCF001C64A3 /* 37-运算符重载的说明 */ = {
+			isa = PBXGroup;
+			children = (
+				7F14AF4922927BEC001C64A3 /* main.cpp */,
+			);
+			path = "37-运算符重载的说明";
+			sourceTree = "<group>";
+		};
+		7F14AF5022927FAD001C64A3 /* 38-运算符重载综合练习 */ = {
+			isa = PBXGroup;
+			children = (
+				7F14AF5622927FC4001C64A3 /* main.cpp */,
+			);
+			path = "38-运算符重载综合练习";
 			sourceTree = "<group>";
 		};
 		7F2297A1227F024600F635E6 /* 24-析构函数演示 */ = {
@@ -1006,6 +1060,8 @@
 				8D00C1A4228FF659000D8D5D /* 34-双目运算符重载-练习 */,
 				8D00C1AF228FFBFF000D8D5D /* 35-单目运算符重载 */,
 				8D00C1BA2290047E000D8D5D /* 36-类型转换运算符重载 */,
+				7F14AF4322927BCF001C64A3 /* 37-运算符重载的说明 */,
+				7F14AF5022927FAD001C64A3 /* 38-运算符重载综合练习 */,
 				8D544A1E22749FA3005FA833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1049,6 +1105,8 @@
 				8D00C1A3228FF659000D8D5D /* 34-双目运算符重载-练习 */,
 				8D00C1AE228FFBFF000D8D5D /* 35-单目运算符重载 */,
 				8D00C1B92290047E000D8D5D /* 36-类型转换运算符重载 */,
+				7F14AF4222927BCF001C64A3 /* 37-运算符重载的说明 */,
+				7F14AF4F22927FAD001C64A3 /* 38-运算符重载综合练习 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1112,6 +1170,40 @@
 			name = "32-练习";
 			productName = "32-练习";
 			productReference = 7F09B7562281A8A800D53108 /* 32-练习 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F14AF4122927BCF001C64A3 /* 37-运算符重载的说明 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F14AF4822927BCF001C64A3 /* Build configuration list for PBXNativeTarget "37-运算符重载的说明" */;
+			buildPhases = (
+				7F14AF3E22927BCF001C64A3 /* Sources */,
+				7F14AF3F22927BCF001C64A3 /* Frameworks */,
+				7F14AF4022927BCF001C64A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "37-运算符重载的说明";
+			productName = "37-运算符重载的说明";
+			productReference = 7F14AF4222927BCF001C64A3 /* 37-运算符重载的说明 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F14AF4E22927FAD001C64A3 /* 38-运算符重载综合练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F14AF5322927FAD001C64A3 /* Build configuration list for PBXNativeTarget "38-运算符重载综合练习" */;
+			buildPhases = (
+				7F14AF4B22927FAD001C64A3 /* Sources */,
+				7F14AF4C22927FAD001C64A3 /* Frameworks */,
+				7F14AF4D22927FAD001C64A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "38-运算符重载综合练习";
+			productName = "38-运算符重载综合练习";
+			productReference = 7F14AF4F22927FAD001C64A3 /* 38-运算符重载综合练习 */;
 			productType = "com.apple.product-type.tool";
 		};
 		7F22979F227F024600F635E6 /* 24-析构函数演示 */ = {
@@ -1708,6 +1800,12 @@
 					7F09B7552281A8A800D53108 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7F14AF4122927BCF001C64A3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7F14AF4E22927FAD001C64A3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					7F22979F227F024600F635E6 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -1861,6 +1959,8 @@
 				8D00C1A2228FF659000D8D5D /* 34-双目运算符重载-练习 */,
 				8D00C1AD228FFBFF000D8D5D /* 35-单目运算符重载 */,
 				8D00C1B82290047E000D8D5D /* 36-类型转换运算符重载 */,
+				7F14AF4122927BCF001C64A3 /* 37-运算符重载的说明 */,
+				7F14AF4E22927FAD001C64A3 /* 38-运算符重载综合练习 */,
 			);
 		};
 /* End PBXProject section */
@@ -1879,6 +1979,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F09B7592281A8A800D53108 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14AF3E22927BCF001C64A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14AF4A22927BEC001C64A3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14AF4B22927FAD001C64A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14AF5822927FC4001C64A3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2182,6 +2298,38 @@
 			name = Debug;
 		};
 		7F09B75C2281A8A800D53108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F14AF4622927BCF001C64A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F14AF4722927BCF001C64A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F14AF5422927FAD001C64A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F14AF5522927FAD001C64A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -2861,6 +3009,24 @@
 			buildConfigurations = (
 				7F09B75B2281A8A800D53108 /* Debug */,
 				7F09B75C2281A8A800D53108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F14AF4822927BCF001C64A3 /* Build configuration list for PBXNativeTarget "37-运算符重载的说明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F14AF4622927BCF001C64A3 /* Debug */,
+				7F14AF4722927BCF001C64A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F14AF5322927FAD001C64A3 /* Build configuration list for PBXNativeTarget "38-运算符重载综合练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F14AF5422927FAD001C64A3 /* Debug */,
+				7F14AF5522927FAD001C64A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
