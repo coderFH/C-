@@ -14,6 +14,10 @@
 		7F14A8722293976D003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A8712293976D003642C7 /* main.cpp */; };
 		7F14A87D22939812003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A87C22939812003642C7 /* main.cpp */; };
 		7F14A88822939898003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A88722939898003642C7 /* main.cpp */; };
+		7F14A8932293F6B0003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A8922293F6B0003642C7 /* main.cpp */; };
+		7F14A89E2293FDDF003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A89D2293FDDF003642C7 /* main.cpp */; };
+		7F14A8A9229405DE003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A8A8229405DE003642C7 /* main.cpp */; };
+		7F14A8B422940FE4003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A8B322940FE4003642C7 /* main.cpp */; };
 		7F14AF4A22927BEC001C64A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14AF4922927BEC001C64A3 /* main.cpp */; };
 		7F14AF5822927FC4001C64A3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14AF5622927FC4001C64A3 /* main.cpp */; };
 		7F2297A3227F024600F635E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F2297A2227F024600F635E6 /* main.cpp */; };
@@ -108,6 +112,42 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		7F14A88322939898003642C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F14A88E2293F6B0003642C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F14A8992293FDDF003642C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F14A8A4229405DE003642C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F14A8AF22940FE4003642C7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -457,6 +497,14 @@
 		7F14A87C22939812003642C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F14A88522939898003642C7 /* 43-继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "43-继承"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F14A88722939898003642C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F14A8902293F6B0003642C7 /* 44-继承中的析构 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "44-继承中的析构"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14A8922293F6B0003642C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F14A89B2293FDDF003642C7 /* 45-钻石继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "45-钻石继承"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14A89D2293FDDF003642C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F14A8A6229405DE003642C7 /* 46-多态 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "46-多态"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14A8A8229405DE003642C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F14A8B122940FE4003642C7 /* 47-虚析构函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "47-虚析构函数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F14A8B322940FE4003642C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F14AF4222927BCF001C64A3 /* 37-运算符重载的说明 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "37-运算符重载的说明"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F14AF4922927BEC001C64A3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F14AF4F22927FAD001C64A3 /* 38-运算符重载综合练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "38-运算符重载综合练习"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -575,6 +623,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F14A88222939898003642C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A88D2293F6B0003642C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A8982293FDDF003642C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A8A3229405DE003642C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A8AE22940FE4003642C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -892,6 +968,38 @@
 			path = "43-继承";
 			sourceTree = "<group>";
 		};
+		7F14A8912293F6B0003642C7 /* 44-继承中的析构 */ = {
+			isa = PBXGroup;
+			children = (
+				7F14A8922293F6B0003642C7 /* main.cpp */,
+			);
+			path = "44-继承中的析构";
+			sourceTree = "<group>";
+		};
+		7F14A89C2293FDDF003642C7 /* 45-钻石继承 */ = {
+			isa = PBXGroup;
+			children = (
+				7F14A89D2293FDDF003642C7 /* main.cpp */,
+			);
+			path = "45-钻石继承";
+			sourceTree = "<group>";
+		};
+		7F14A8A7229405DE003642C7 /* 46-多态 */ = {
+			isa = PBXGroup;
+			children = (
+				7F14A8A8229405DE003642C7 /* main.cpp */,
+			);
+			path = "46-多态";
+			sourceTree = "<group>";
+		};
+		7F14A8B222940FE4003642C7 /* 47-虚析构函数 */ = {
+			isa = PBXGroup;
+			children = (
+				7F14A8B322940FE4003642C7 /* main.cpp */,
+			);
+			path = "47-虚析构函数";
+			sourceTree = "<group>";
+		};
 		7F14AF4322927BCF001C64A3 /* 37-运算符重载的说明 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1202,6 +1310,10 @@
 				7F14A8702293976D003642C7 /* 41-间接操作符 */,
 				7F14A87B22939812003642C7 /* 42-new/delete操作符重载 */,
 				7F14A88622939898003642C7 /* 43-继承 */,
+				7F14A8912293F6B0003642C7 /* 44-继承中的析构 */,
+				7F14A89C2293FDDF003642C7 /* 45-钻石继承 */,
+				7F14A8A7229405DE003642C7 /* 46-多态 */,
+				7F14A8B222940FE4003642C7 /* 47-虚析构函数 */,
 				8D544A1E22749FA3005FA833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1252,6 +1364,10 @@
 				7F14A86F2293976C003642C7 /* 41-间接操作符 */,
 				7F14A87A22939812003642C7 /* 42-new/delete操作符重载 */,
 				7F14A88522939898003642C7 /* 43-继承 */,
+				7F14A8902293F6B0003642C7 /* 44-继承中的析构 */,
+				7F14A89B2293FDDF003642C7 /* 45-钻石继承 */,
+				7F14A8A6229405DE003642C7 /* 46-多态 */,
+				7F14A8B122940FE4003642C7 /* 47-虚析构函数 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1400,6 +1516,74 @@
 			name = "43-继承";
 			productName = "43-继承";
 			productReference = 7F14A88522939898003642C7 /* 43-继承 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F14A88F2293F6B0003642C7 /* 44-继承中的析构 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F14A8942293F6B0003642C7 /* Build configuration list for PBXNativeTarget "44-继承中的析构" */;
+			buildPhases = (
+				7F14A88C2293F6B0003642C7 /* Sources */,
+				7F14A88D2293F6B0003642C7 /* Frameworks */,
+				7F14A88E2293F6B0003642C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "44-继承中的析构";
+			productName = "44-继承中的析构";
+			productReference = 7F14A8902293F6B0003642C7 /* 44-继承中的析构 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F14A89A2293FDDF003642C7 /* 45-钻石继承 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F14A89F2293FDDF003642C7 /* Build configuration list for PBXNativeTarget "45-钻石继承" */;
+			buildPhases = (
+				7F14A8972293FDDF003642C7 /* Sources */,
+				7F14A8982293FDDF003642C7 /* Frameworks */,
+				7F14A8992293FDDF003642C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "45-钻石继承";
+			productName = "45-钻石继承";
+			productReference = 7F14A89B2293FDDF003642C7 /* 45-钻石继承 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F14A8A5229405DE003642C7 /* 46-多态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F14A8AA229405DE003642C7 /* Build configuration list for PBXNativeTarget "46-多态" */;
+			buildPhases = (
+				7F14A8A2229405DE003642C7 /* Sources */,
+				7F14A8A3229405DE003642C7 /* Frameworks */,
+				7F14A8A4229405DE003642C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "46-多态";
+			productName = "46-多态";
+			productReference = 7F14A8A6229405DE003642C7 /* 46-多态 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F14A8B022940FE4003642C7 /* 47-虚析构函数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F14A8B522940FE4003642C7 /* Build configuration list for PBXNativeTarget "47-虚析构函数" */;
+			buildPhases = (
+				7F14A8AD22940FE4003642C7 /* Sources */,
+				7F14A8AE22940FE4003642C7 /* Frameworks */,
+				7F14A8AF22940FE4003642C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "47-虚析构函数";
+			productName = "47-虚析构函数";
+			productReference = 7F14A8B122940FE4003642C7 /* 47-虚析构函数 */;
 			productType = "com.apple.product-type.tool";
 		};
 		7F14AF4122927BCF001C64A3 /* 37-运算符重载的说明 */ = {
@@ -2045,6 +2229,18 @@
 					7F14A88422939898003642C7 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7F14A88F2293F6B0003642C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7F14A89A2293FDDF003642C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7F14A8A5229405DE003642C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7F14A8B022940FE4003642C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					7F14AF4122927BCF001C64A3 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -2211,6 +2407,10 @@
 				7F14A86E2293976C003642C7 /* 41-间接操作符 */,
 				7F14A87922939812003642C7 /* 42-new/delete操作符重载 */,
 				7F14A88422939898003642C7 /* 43-继承 */,
+				7F14A88F2293F6B0003642C7 /* 44-继承中的析构 */,
+				7F14A89A2293FDDF003642C7 /* 45-钻石继承 */,
+				7F14A8A5229405DE003642C7 /* 46-多态 */,
+				7F14A8B022940FE4003642C7 /* 47-虚析构函数 */,
 			);
 		};
 /* End PBXProject section */
@@ -2269,6 +2469,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F14A88822939898003642C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A88C2293F6B0003642C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14A8932293F6B0003642C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A8972293FDDF003642C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14A89E2293FDDF003642C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A8A2229405DE003642C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14A8A9229405DE003642C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F14A8AD22940FE4003642C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F14A8B422940FE4003642C7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2668,6 +2900,70 @@
 			name = Debug;
 		};
 		7F14A88B22939898003642C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F14A8952293F6B0003642C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F14A8962293F6B0003642C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F14A8A02293FDDF003642C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F14A8A12293FDDF003642C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F14A8AB229405DE003642C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F14A8AC229405DE003642C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F14A8B622940FE4003642C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F14A8B722940FE4003642C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -3424,6 +3720,42 @@
 			buildConfigurations = (
 				7F14A88A22939898003642C7 /* Debug */,
 				7F14A88B22939898003642C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F14A8942293F6B0003642C7 /* Build configuration list for PBXNativeTarget "44-继承中的析构" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F14A8952293F6B0003642C7 /* Debug */,
+				7F14A8962293F6B0003642C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F14A89F2293FDDF003642C7 /* Build configuration list for PBXNativeTarget "45-钻石继承" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F14A8A02293FDDF003642C7 /* Debug */,
+				7F14A8A12293FDDF003642C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F14A8AA229405DE003642C7 /* Build configuration list for PBXNativeTarget "46-多态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F14A8AB229405DE003642C7 /* Debug */,
+				7F14A8AC229405DE003642C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F14A8B522940FE4003642C7 /* Build configuration list for PBXNativeTarget "47-虚析构函数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F14A8B622940FE4003642C7 /* Debug */,
+				7F14A8B722940FE4003642C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

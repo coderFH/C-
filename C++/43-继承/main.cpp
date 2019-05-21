@@ -38,7 +38,7 @@ private:
 
 class Student : public Person {
 public:
-    Student (const string& strName, int nAge, int nNumber) : m_nNumber (nNumber) {
+    Student (const string& strName, int nAge, int nNumber) :Person(strName,nAge),m_nNumber (nNumber) {//在子类的构造函数中可以显式地指定其基类子对象的构造方式就是这句Person(strName,nAge)（通过在初始化表中使用“基类(构造参数)”），否则系统就会试图以无参的方式构造其基类子对象
         cout << "我是学生，学号是" << m_nNumber << "。" << endl;
     }
     void Learn (const string& strLesson) {

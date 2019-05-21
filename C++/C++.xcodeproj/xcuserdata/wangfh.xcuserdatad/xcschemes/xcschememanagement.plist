@@ -234,6 +234,26 @@
 			<key>orderHint</key>
 			<integer>42</integer>
 		</dict>
+		<key>44-继承中的析构.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>45-钻石继承.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>46-多态.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>47-虚析构函数.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>
