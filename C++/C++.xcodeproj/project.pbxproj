@@ -17,6 +17,9 @@
 		7F07884622956D6F00EC2C98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F07884522956D6F00EC2C98 /* main.cpp */; };
 		7F09B7512281968500D53108 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F09B7502281968500D53108 /* main.cpp */; };
 		7F09B7592281A8A800D53108 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F09B7582281A8A800D53108 /* main.cpp */; };
+		7F09FEAD229BE3A90070979A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F09FEAC229BE3A90070979A /* main.cpp */; };
+		7F09FEB3229BE63C0070979A /* math.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F09FEB2229BE63C0070979A /* math.c */; };
+		7F09FEB6229BECC60070979A /* other.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F09FEB5229BECC60070979A /* other.c */; };
 		7F14A85F22938D0B003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A85E22938D0B003642C7 /* main.cpp */; };
 		7F14A8672293969F003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A8662293969F003642C7 /* main.cpp */; };
 		7F14A8722293976D003642C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F14A8712293976D003642C7 /* main.cpp */; };
@@ -153,6 +156,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		7F09B7542281A8A800D53108 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F09FEA8229BE3A80070979A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -643,6 +655,12 @@
 		7F09B7502281968500D53108 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F09B7562281A8A800D53108 /* 32-练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "32-练习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F09B7582281A8A800D53108 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F09FEAA229BE3A80070979A /* 62-externC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "62-externC"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F09FEAC229BE3A90070979A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F09FEB1229BE63C0070979A /* math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
+		7F09FEB2229BE63C0070979A /* math.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = math.c; sourceTree = "<group>"; };
+		7F09FEB4229BECC60070979A /* other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = other.h; sourceTree = "<group>"; };
+		7F09FEB5229BECC60070979A /* other.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = other.c; sourceTree = "<group>"; };
 		7F14A85722938CF6003642C7 /* 39-下标操作符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "39-下标操作符"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F14A85E22938D0B003642C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7F14A8642293969F003642C7 /* 40-函数操作符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "40-函数操作符"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -812,6 +830,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F09B7532281A8A800D53108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F09FEA7229BE3A80070979A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1256,6 +1281,18 @@
 				7F09B7582281A8A800D53108 /* main.cpp */,
 			);
 			path = "32-练习";
+			sourceTree = "<group>";
+		};
+		7F09FEAB229BE3A80070979A /* 62-externC */ = {
+			isa = PBXGroup;
+			children = (
+				7F09FEAC229BE3A90070979A /* main.cpp */,
+				7F09FEB1229BE63C0070979A /* math.h */,
+				7F09FEB2229BE63C0070979A /* math.c */,
+				7F09FEB4229BECC60070979A /* other.h */,
+				7F09FEB5229BECC60070979A /* other.c */,
+			);
+			path = "62-externC";
 			sourceTree = "<group>";
 		};
 		7F14A85822938CF6003642C7 /* 39-下标操作符 */ = {
@@ -1706,6 +1743,7 @@
 				7F50A049229670F8009E544F /* 59-二进制IO */,
 				7F50A054229673F2009E544F /* 60-格式控制 */,
 				7F50A05F22967F12009E544F /* 61-字符串流 */,
+				7F09FEAB229BE3A80070979A /* 62-externC */,
 				8D544A1E22749FA3005FA833 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1774,6 +1812,7 @@
 				7F50A048229670F8009E544F /* 59-二进制IO */,
 				7F50A053229673F2009E544F /* 60-格式控制 */,
 				7F50A05E22967F12009E544F /* 61-字符串流 */,
+				7F09FEAA229BE3A80070979A /* 62-externC */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1973,6 +2012,23 @@
 			name = "32-练习";
 			productName = "32-练习";
 			productReference = 7F09B7562281A8A800D53108 /* 32-练习 */;
+			productType = "com.apple.product-type.tool";
+		};
+		7F09FEA9229BE3A80070979A /* 62-externC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F09FEB0229BE3A90070979A /* Build configuration list for PBXNativeTarget "62-externC" */;
+			buildPhases = (
+				7F09FEA6229BE3A80070979A /* Sources */,
+				7F09FEA7229BE3A80070979A /* Frameworks */,
+				7F09FEA8229BE3A80070979A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "62-externC";
+			productName = "62-externC";
+			productReference = 7F09FEAA229BE3A80070979A /* 62-externC */;
 			productType = "com.apple.product-type.tool";
 		};
 		7F14A85622938CF6003642C7 /* 39-下标操作符 */ = {
@@ -2882,6 +2938,9 @@
 					7F09B7552281A8A800D53108 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					7F09FEA9229BE3A80070979A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					7F14A85622938CF6003642C7 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -3111,6 +3170,7 @@
 				7F50A047229670F8009E544F /* 59-二进制IO */,
 				7F50A052229673F2009E544F /* 60-格式控制 */,
 				7F50A05D22967F12009E544F /* 61-字符串流 */,
+				7F09FEA9229BE3A80070979A /* 62-externC */,
 			);
 		};
 /* End PBXProject section */
@@ -3193,6 +3253,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F09B7592281A8A800D53108 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F09FEA6229BE3A80070979A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F09FEB6229BECC60070979A /* other.c in Sources */,
+				7F09FEAD229BE3A90070979A /* main.cpp in Sources */,
+				7F09FEB3229BE63C0070979A /* math.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3760,6 +3830,22 @@
 			name = Debug;
 		};
 		7F09B75C2281A8A800D53108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F09FEAE229BE3A90070979A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F09FEAF229BE3A90070979A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -4783,6 +4869,15 @@
 			buildConfigurations = (
 				7F09B75B2281A8A800D53108 /* Debug */,
 				7F09B75C2281A8A800D53108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F09FEB0229BE3A90070979A /* Build configuration list for PBXNativeTarget "62-externC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F09FEAE229BE3A90070979A /* Debug */,
+				7F09FEAF229BE3A90070979A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
