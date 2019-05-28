@@ -33,6 +33,12 @@ void foo5(char *&psz) {
     psz = "d";
 }
 
+void swap(int &a,int &b) {
+    int temp = a;
+    a = b ;
+    b = temp;
+}
+
 int main(int argc, const char * argv[]) {
     int n = 10;
     foo(n);
@@ -54,5 +60,33 @@ int main(int argc, const char * argv[]) {
     
     foo5(psz);
     cout << *psz << endl;
+    
+    cout <<  "====================" << endl;
+    
+    //指针
+    int age = 20;
+    int *pAge = &age;
+    cout <<*pAge << endl;
+    *pAge = 30;
+    cout << age <<endl;
+    
+    cout << "引用" << endl;
+    //引用
+    int age1 = 20;
+    //定义一个引用,相当于变量的别名
+    int &rAge = age1;
+    rAge = 40;
+    cout << rAge <<endl;
+    cout << rAge <<endl;
+    
+    int array[] ={1,2,3};
+    int (&arr)[3] = array;
+    cout << arr << endl;
+    
+    int v1 = 10;
+    int v2 = 20;
+    swap(v1, v2);
+    cout << v1 << v2 <<endl;
+    
     return 0;
 }
