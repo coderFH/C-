@@ -66,18 +66,19 @@ int main(int argc, const char * argv[]) {
     //指针
     int age = 20;
     int *pAge = &age;
-    cout <<*pAge << endl;
+    cout << "原age = " <<*pAge << endl;
     *pAge = 30;
-    cout << age <<endl;
+    cout << "修改后age = " << age <<endl;
     
-    cout << "引用" << endl;
-    //引用
+    cout << "=====引用=====" << endl;
     int age1 = 20;
     //定义一个引用,相当于变量的别名
     int &rAge = age1;
+    int &rAge1 = rAge;//可以利用引用初始化另一个引用，相当于某个变量的多个别名
+    cout << "引用修改前的age = "<< rAge <<endl;
     rAge = 40;
-    cout << rAge <<endl;
-    cout << rAge <<endl;
+    cout << "引用修改后的age = "<< rAge <<endl;
+    cout << "引用修改后的age = "<< rAge1 <<endl;
     
     int array[] ={1,2,3};
     int (&arr)[3] = array;
@@ -86,7 +87,7 @@ int main(int argc, const char * argv[]) {
     int v1 = 10;
     int v2 = 20;
     swap(v1, v2);
-    cout << v1 << v2 <<endl;
+    cout << v1 << " " << v2 <<endl;
     
     return 0;
 }
